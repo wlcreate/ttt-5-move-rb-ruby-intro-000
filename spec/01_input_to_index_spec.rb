@@ -2,6 +2,10 @@ require_relative "../lib/move.rb"
 
 describe 'input_to_index' do
 
+  def input_to_index(user_input)
+    user_input.to_i - 1 
+  end
+
   it 'converts a user_input to an integer' do
     user_input = 1.to_i
 
@@ -16,8 +20,5 @@ describe 'input_to_index' do
     user_input = "invalid"
 
   end
-
-def input_to_index(user_input = " 1 - 9")
-end
 
 end
