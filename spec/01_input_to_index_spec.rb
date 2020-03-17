@@ -1,6 +1,6 @@
 require_relative "../lib/move.rb"
 
-describe '#input_to_index' do
+describe 'input_to_index' do
 
   it 'converts a user_input to an integer' do
     user_input = "1"
