@@ -14,7 +14,7 @@ describe 'input_to_index' do
 
   it 'returns -1 for strings without integers' do
     user_input = "invalid"
-  
+
   end
 
 def input_to_index(user_input = " 1 - 9")
