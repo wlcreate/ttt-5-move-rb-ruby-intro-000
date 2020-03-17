@@ -10,7 +10,7 @@ describe 'input_to_index' do
 
   it 'subtracts 1 from the user_input' do
     user_input = 6.to_i
-    
+
     expect(converted_input).to be(5)
   end
 
