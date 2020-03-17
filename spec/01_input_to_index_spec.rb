@@ -17,8 +17,7 @@ describe 'input_to_index' do
   
   end
 
-def input_to_index(user_input)
-  puts " 1 - 9 "
+def input_to_index(user_input = " 1 - 9")
 end
 
 end
